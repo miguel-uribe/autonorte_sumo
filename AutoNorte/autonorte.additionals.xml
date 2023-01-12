@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-01-06 11:32:47 by Eclipse SUMO netedit Version 1.15.0
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- StoppingPlaces -->
+    <busStop id="087A02" name="Auto Norte - CL 174A" lane="911102405#3_0" startPos="87.00" endPos="107.00" lines="291 330 C917 F401 F404 G902 H907 T11 T163 Z4B"/>
+    <busStop id="088A02" name="Auto Norte - CL 178" lane="911102406_0" startPos="136.28" endPos="156.28" lines="291 330 C917 F401 F404 G902 H907 T11 T163 Z4B"/>
+    <busStop id="089A02" name="Auto Norte - CL 187" lane="1014179908_0" startPos="21.65" endPos="41.65" lines="18-3 330 F401 F918 H907 K901 L919 P49 T25 Z4B"/>
+    <busStop id="089B01" name="Auto Norte - CL 187" lane="1014179908_0" startPos="85.64" endPos="105.64" lines="291 402 661 C77 C917 E44 F404 G902 T11 T163"/>
+    <busStop id="099A02" name="Auto Norte - CL 215" lane="910256693#14_0" startPos="46.83" endPos="66.83" lines="F401 F404 G902 T11 T163"/>
+    <busStop id="101A02" name="Auto Norte - CL 197" lane="90639510#8_0" startPos="272.06" endPos="292.06" lines="2-2 F401 F404 G902 T11 T163"/>
+    <busStop id="102A02" name="Auto Norte - CL 194" lane="90639510#13.211_0" startPos="4.35" endPos="24.35" lines="2-2 18-3 291 402 661 B901 B917 B918 B919 C77 E44 P49 T25 Z4B"/>
+    <busStop id="102B02" name="Auto Norte - CL 194" lane="90639510#13.150_0" startPos="14.97" endPos="34.97" lines="B907 F401 F404 G902 T11 T163"/>
+    <busStop id="103A02" name="Auto Norte - CL 205" lane="90639510#1_0" startPos="43.49" endPos="63.49" lines="F401 F404 G902 T11 T163 2-2"/>
+    <busStop id="104A02" name="Auto Norte - AC 235" lane="910256693#1_0" startPos="33.31" endPos="53.31" lines="B401 B404 B902 T11 T63"/>
+    <busStop id="144B02" name="Auto Norte - CL 172B" lane="487491309#3_0" startPos="136.50" endPos="156.50" lines="B401 B404 B917 T11 T55 T163 TC10"/>
+    <busStop id="144B03" name="Auto Norte - CL 172A" lane="487491309#3_0" startPos="75.94" endPos="95.94" lines="291 330 B902 Z4B"/>
+    <busStop id="145A01" name="Auto Norte - DG 182" lane="487491309#4_0" startPos="89.27" endPos="109.27" lines="291 330 B401 B404 B902 B907 B917 T11 T163 TC10 Z4B"/>
+    <busStop id="146A01" name="Auto Norte - CL 187Bis" lane="118123468_0" startPos="39.90" endPos="59.90" lines="291, B401, B404, B901, B902, B917, B918, T11, T25, T163, Z4B"/>
+    <busStop id="146B01" name="Auto Norte - CL 187" lane="1056691029#0_0" startPos="6.70" endPos="26.70" lines="330 402 661 B907 B919 B923 C77 E44 P49"/>
+    <busStop id="166A02" name="Auto Norte - AC 222" lane="910256693#13_0" startPos="12.72" endPos="32.72" lines="F401 F404 G902 T11 T63"/>
+    <busStop id="166B02" name="Auto Norte - AC 222" lane="910256693#7.90_0" startPos="344.99" endPos="364.99" lines="B401 B902 T11 T163"/>
+    <busStop id="178A02" name="Auto Norte - AC 235" lane="907302114#0_0" startPos="319.63" endPos="339.63" lines="B401 B404 B902 T11 T163"/>
+    <busStop id="274A01" name="Auto Norte - CL 193" lane="1056691026#0_0" startPos="48.92" endPos="68.92" lines="18-3 291 402 661 B901 B907 B917 B918 B919 C77 E44 P49 T25"/>
+    <busStop id="274B01" name="Auto Norte - CL 193" lane="1056691026#0_0" startPos="158.63" endPos="178.63" lines="2-2 B401 B404 B902 T11 T163 Z4B"/>
+    <busStop id="275A01" name="Auto Norte - CL 198" lane="601794960#4.49_0" startPos="40.86" endPos="60.86" lines="2-2 B401 B404 B902 T11 T163"/>
+    <busStop id="276A01" name="Auto Norte - CL 207" lane="601794960#9.43.273_0" startPos="32.86" endPos="52.86" friendlyPos="true" lines="2-2 B401 B404 B902 T11 T163"/>
+    <busStop id="338A02" name="Auto Norte - CL 191" lane="90639510#16.305_0" startPos="7.65" endPos="27.65" lines="402 B901 B917 B918 C77 G902"/>
+    <busStop id="338B02" name="Auto Norte - CL 191" lane="90639510#16.305_0" startPos="45.47" endPos="65.47" lines="F401 F404 T11 T163"/>
+    <busStop id="346A02" name="Auto Norte - AC 224" lane="910256693#7.16_0" startPos="8.47" endPos="28.47" lines="B401 B404 B902 T11 T163"/>
+    <busStop id="569A01" name="Auto Norte - CL 224" lane="601794960#17.30_0" startPos="11.90" endPos="31.90" lines="B401 B404 B902 T11 T163"/>
+    <busStop id="676A01" name="Auto Norte - CL 164" lane="913056615#0-AddedOnRampEdge_0" startPos="52.38" endPos="72.38" lines="19-9 Z8"/>
+    <busStop id="676A02" name="Auto Norte - CL 164" lane="809284674#8_0" startPos="0.00" endPos="20.00" lines="19-9 Z8"/>
+    <busStop id="interm4" lane="487491309#3_0" startPos="97.31" endPos="137.31"/>
+    <busStop id="interm_0" lane="118123468_0" startPos="70.63" endPos="110.63"/>
+    <busStop id="interm_1" lane="1056691026#0_0" startPos="100.53" endPos="140.53"/>
+    <busStop id="interm_3" lane="911102405#4_0" startPos="20.12" endPos="60.12"/>
+    <busStop id="interm_5" lane="1014179908_0" startPos="41.28" endPos="81.28"/>
+    <busStop id="interm_6" lane="90639510#16.305_0" startPos="15.25" endPos="55.25"/>
+    <busStop id="terminal_norte" lane="467183603#1_0" startPos="100.00" endPos="280.00"/>
+</additional>

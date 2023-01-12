@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-01-03 15:43:35 by Eclipse SUMO sumo Version 1.15.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="../../../../OneDrive%2520-%2520Universidad%2520de%2520la%2520Sabana/Research/SUMO/AutoNorte/autonorte.net.xml"/>
+        <route-files value="../../../../OneDrive%2520-%2520Universidad%2520de%2520la%2520Sabana/Research/SUMO/AutoNorte/autonorte.rou.xml"/>
+    </input>
+
+    <processing>
+        <time-to-teleport value="-1"/>
+    </processing>
+
+    <random_number>
+        <random value="true"/>
+    </random_number>
+
+</configuration>
