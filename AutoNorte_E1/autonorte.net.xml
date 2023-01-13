@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2023-01-13 09:10:48 by Eclipse SUMO netedit Version 1.15.0
+<!-- generated on 2023-01-13 10:17:48 by Eclipse SUMO netedit Version 1.15.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
@@ -474,13 +474,13 @@
         <lane id=":316369726_0_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="13.89" length="0.51" shape="3762.77,11350.55 3763.02,11350.55 3763.20,11350.54 3763.37,11350.53 3763.62,11350.50"/>
     </edge>
     <edge id=":316369730_0" function="internal">
-        <lane id=":316369730_0_0" index="0" allow="private emergency authority army vip passenger hov taxi bus delivery truck trailer motorcycle moped evehicle custom1 custom2" speed="11.11" length="31.56" shape="3671.88,11272.09 3674.43,11282.63 3677.25,11291.09 3679.95,11297.49 3682.11,11301.84"/>
+        <lane id=":316369730_0_0" index="0" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship" speed="11.11" length="31.56" shape="3671.88,11272.09 3674.43,11282.63 3677.25,11291.09 3679.95,11297.49 3682.11,11301.84"/>
     </edge>
     <edge id=":316369730_1" function="internal">
-        <lane id=":316369730_1_0" index="0" allow="private emergency authority army vip passenger hov taxi bus delivery truck trailer motorcycle moped evehicle custom1 custom2" speed="13.89" length="31.55" shape="3671.88,11272.09 3678.35,11303.27"/>
-        <lane id=":316369730_1_1" index="1" allow="private emergency authority army vip passenger hov taxi bus delivery truck trailer motorcycle moped evehicle custom1 custom2" speed="13.89" length="31.55" shape="3668.77,11272.86 3675.21,11303.89"/>
-        <lane id=":316369730_1_2" index="2" allow="private emergency authority army vip passenger hov taxi bus delivery truck trailer motorcycle moped evehicle custom1 custom2" speed="13.89" length="31.55" shape="3665.66,11273.62 3672.07,11304.51"/>
-        <lane id=":316369730_1_3" index="3" allow="private emergency authority army vip passenger hov taxi bus delivery truck trailer motorcycle moped evehicle custom1 custom2" speed="13.89" length="31.55" shape="3662.55,11274.39 3668.93,11305.13"/>
+        <lane id=":316369730_1_0" index="0" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship" speed="13.89" length="31.55" shape="3671.88,11272.09 3678.35,11303.27"/>
+        <lane id=":316369730_1_1" index="1" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship" speed="13.89" length="31.55" shape="3668.77,11272.86 3675.21,11303.89"/>
+        <lane id=":316369730_1_2" index="2" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship" speed="13.89" length="31.55" shape="3665.66,11273.62 3672.07,11304.51"/>
+        <lane id=":316369730_1_3" index="3" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship" speed="13.89" length="31.55" shape="3662.55,11274.39 3668.93,11305.13"/>
         <lane id=":316369730_1_4" index="4" allow="coach" speed="13.89" length="31.55" shape="3659.44,11275.16 3665.79,11305.75"/>
     </edge>
     <edge id=":317467954_0" function="internal">
@@ -1985,16 +1985,16 @@
         <param key="origFrom" value="5113873127"/>
     </edge>
     <edge id="1013187999#2.90" from="J20" to="316369730" name="Avenida Carrera 45" priority="13" type="highway.trunk" spreadType="center">
-        <lane id="1013187999#2.90_0" index="0" allow="private emergency authority army vip passenger hov taxi bus delivery truck trailer motorcycle moped evehicle custom1 custom2" speed="13.89" length="29.62" shape="3666.26,11243.33 3671.88,11272.09">
+        <lane id="1013187999#2.90_0" index="0" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship" speed="13.89" length="29.62" shape="3666.26,11243.33 3671.88,11272.09">
             <param key="origId" value="1013187999"/>
         </lane>
-        <lane id="1013187999#2.90_1" index="1" allow="private emergency authority army vip passenger hov taxi bus delivery truck trailer motorcycle moped evehicle custom1 custom2" speed="13.89" length="29.62" shape="3663.12,11243.94 3668.77,11272.86">
+        <lane id="1013187999#2.90_1" index="1" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship" speed="13.89" length="29.62" shape="3663.12,11243.94 3668.77,11272.86">
             <param key="origId" value="1013187999"/>
         </lane>
-        <lane id="1013187999#2.90_2" index="2" allow="private emergency authority army vip passenger hov taxi bus delivery truck trailer motorcycle moped evehicle custom1 custom2" speed="13.89" length="29.62" shape="3659.98,11244.56 3665.66,11273.62">
+        <lane id="1013187999#2.90_2" index="2" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship" speed="13.89" length="29.62" shape="3659.98,11244.56 3665.66,11273.62">
             <param key="origId" value="1013187999"/>
         </lane>
-        <lane id="1013187999#2.90_3" index="3" allow="private emergency authority army vip passenger hov taxi bus delivery truck trailer motorcycle moped evehicle custom1 custom2" speed="13.89" length="29.62" shape="3656.84,11245.17 3662.55,11274.39">
+        <lane id="1013187999#2.90_3" index="3" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship" speed="13.89" length="29.62" shape="3656.84,11245.17 3662.55,11274.39">
             <param key="origId" value="1013187999"/>
         </lane>
         <lane id="1013187999#2.90_4" index="4" allow="coach" speed="13.89" length="29.62" shape="3653.70,11245.78 3659.44,11275.16">
@@ -2003,16 +2003,16 @@
         <param key="origFrom" value="5113873127"/>
     </edge>
     <edge id="1013187999#4" from="316369730" to="551089701" name="Avenida Carrera 45" priority="13" type="highway.trunk" spreadType="center">
-        <lane id="1013187999#4_0" index="0" allow="private emergency authority army vip passenger hov taxi bus delivery truck trailer motorcycle moped evehicle custom1 custom2" speed="13.89" length="132.56" shape="3678.35,11303.27 3705.10,11433.26">
+        <lane id="1013187999#4_0" index="0" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship" speed="13.89" length="132.56" shape="3678.35,11303.27 3705.10,11433.26">
             <param key="origId" value="1013187999"/>
         </lane>
-        <lane id="1013187999#4_1" index="1" allow="private emergency authority army vip passenger hov taxi bus delivery truck trailer motorcycle moped evehicle custom1 custom2" speed="13.89" length="132.56" shape="3675.21,11303.89 3701.95,11433.81">
+        <lane id="1013187999#4_1" index="1" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship" speed="13.89" length="132.56" shape="3675.21,11303.89 3701.95,11433.81">
             <param key="origId" value="1013187999"/>
         </lane>
-        <lane id="1013187999#4_2" index="2" allow="private emergency authority army vip passenger hov taxi bus delivery truck trailer motorcycle moped evehicle custom1 custom2" speed="13.89" length="132.56" shape="3672.07,11304.51 3698.79,11434.35">
+        <lane id="1013187999#4_2" index="2" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship" speed="13.89" length="132.56" shape="3672.07,11304.51 3698.79,11434.35">
             <param key="origId" value="1013187999"/>
         </lane>
-        <lane id="1013187999#4_3" index="3" allow="private emergency authority army vip passenger hov taxi bus delivery truck trailer motorcycle moped evehicle custom1 custom2" speed="13.89" length="132.56" shape="3668.93,11305.13 3695.63,11434.89">
+        <lane id="1013187999#4_3" index="3" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship" speed="13.89" length="132.56" shape="3668.93,11305.13 3695.63,11434.89">
             <param key="origId" value="1013187999"/>
         </lane>
         <lane id="1013187999#4_4" index="4" allow="coach" speed="13.89" length="132.56" shape="3665.79,11305.75 3692.48,11435.44">

@@ -60,11 +60,11 @@
     <flow id="flota_bogota_terminal_chia" type="bog_flota" begin="0.00" departLane="random" from="ent_cl170_or" to="sal_auto_norte" via="25123214 487491309#3 911102409#1 467183603#0 467183603#1 ent_cl192_occ.900 1056691026#0" end="7200.00" period="exp(0.01)">
         <stop busStop="terminal_norte" duration="30.00"/>
     </flow>
-    <flow id="flota_chia_portal" type="bog_interm" begin="0.00" departLane="random" from="ent_auto_sur" to="90071638" via="90639510#16.305 1014179908 948520241#1 978327365#0.89" end="7200.00" period="exp(0.04)">
+    <flow id="flota_chia_portal" type="bog_interm" begin="0.00" departLane="random" from="ent_auto_sur" to="90071638" via="90639510#16.305 1014179908 948520241#1 978327365#0.89" end="7200.00" period="exp(0.02)">
         <stop busStop="interm_6" duration="30.00"/>
         <stop busStop="interm_5" duration="30.00"/>
     </flow>
-    <flow id="flota_portal_chia" type="bog_interm" begin="0.00" departLane="random" from="1033331040" to="sal_auto_norte" via="1050703614#0 1013187999#4 1056691029#0 118123468 984307409 1056691026#0" end="7200.00" probability="0.04">
+    <flow id="flota_portal_chia" type="bog_interm" begin="0.00" departLane="random" from="1033331040" to="sal_auto_norte" via="1050703614#0 1013187999#4 1056691029#0 118123468 984307409 1056691026#0" end="7200.00" probability="0.02">
         <stop busStop="interm_0" duration="30.00"/>
         <stop busStop="interm_1" duration="30.00"/>
     </flow>

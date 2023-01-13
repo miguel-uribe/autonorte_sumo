@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-01-07 09:52:26 by Eclipse SUMO netedit Version 1.15.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="bog_Sitp" speedFactor="normc(1.00,0.10,0.20,2.00)" vClass="bus" impatience="0.20" color="blue" lcImpatience="0.2" lcTimeToImpatience="300"/>
+    <vType id="bog_alimentador" speedFactor="normc(1.00,0.10,0.20,2.00)" vClass="bus" impatience="0.20" color="green" lcStrategic="5" lcSpeedGain="5" lcKeepRight="0" lcImpatience="0.2" lcTimeToImpatience="300" lcLookaheadLeft="1" lcSpeedGainRight="1" lcOvertakeRight="1" lcKeepRightAcceptanceTime="100"/>
+    <vType id="bog_camion" speedFactor="normc(0.70,0.10,0.20,2.00)" vClass="truck" color="123,123,123" lcKeepRight="0" lcSpeedGainRight="1" lcOvertakeRight="1"/>
+    <vType id="bog_driver" impatience="0.20" lcStrategic="5" lcSpeedGain="5" lcKeepRight="0" lcImpatience="0.2" lcTimeToImpatience="300" lcLookaheadLeft="1.0" lcSpeedGainRight="1" lcOvertakeRight="1" lcKeepRightAcceptanceTime="100"/>
+    <vType id="bog_flota" speedFactor="normc(1.00,0.10,0.20,2.00)" vClass="bus" impatience="0.30" color="cyan" lcStrategic="5" lcSpeedGain="5" lcKeepRight="0" lcImpatience="0.3" lcTimeToImpatience="60" lcLookaheadLeft="1.0" lcSpeedGainRight="1.0" lcOvertakeRight="1" lcKeepRightAcceptanceTime="100"/>
+    <vType id="bog_interm" speedFactor="normc(1.00,0.10,0.20,2.00)" vClass="bus" impatience="0.20" color="255,106,0" lcStrategic="5" lcSpeedGain="5" lcKeepRight="0" lcImpatience="0.2" lcTimeToImpatience="300" lcLookaheadLeft="1.0" lcSpeedGainRight="1.0" lcOvertakeRight="1" lcKeepRightAcceptanceTime="100"/>
+    <vType id="bog_ruta" speedFactor="normc(0.80,0.05,0.20,2.00)" vClass="coach" impatience="0.10" color="white" lcStrategic="10" lcSpeedGain="10" lcKeepRight="0" lcImpatience="0.1" lcTimeToImpatience="300" lcLookaheadLeft="1.0" lcSpeedGainRight="1" lcOvertakeRight="1" lcKeepRightAcceptanceTime="100"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <flow id="Auto_norte_central_Cl222" type="bog_driver" begin="0.00" departLane="random" from="ent_auto_norte_central" to="sal_cl222_occ" via="809284676.65" end="7200.00" period="exp(0.01)"/>
+    <flow id="Chia_Cl170_occ" type="bog_driver" begin="0.00" departLane="random" from="ent_auto_sur" to="sal_cl170_occ" end="7200.00" period="exp(0.03)"/>
+    <flow id="Chia_Cl183_occ" type="bog_driver" begin="0.00" departLane="random" from="ent_auto_sur" to="sal_cl183_occ" end="7200.00" period="exp(0.03)"/>
+    <flow id="Chia_Cl183_or" type="bog_driver" begin="0.00" departLane="random" from="ent_auto_sur" to="sal_cl183_or" end="7200.00" period="exp(0.03)"/>
+    <flow id="Cl170_occ_auto_sur_central" type="bog_driver" begin="0.00" departLane="random" from="ent_cl170_occ" to="sal_auto_sur_central" end="7200.00" period="exp(0.06)"/>
+    <flow id="Cl170_occ_auto_sur_lateral" type="bog_driver" begin="0.00" departLane="random" from="ent_cl170_occ" to="sal_auto_sur_lateral" end="7200.00" period="exp(0.03)"/>
+    <flow id="Cl170_or_auto_sur_central" type="bog_driver" begin="0.00" departLane="random" from="ent_cl170_or" to="sal_auto_sur_central" end="7200.00" period="exp(0.06)"/>
+    <flow id="Cl170_or_auto_sur_lateral" type="bog_driver" begin="0.00" departLane="random" from="ent_cl170_or" to="sal_auto_sur_lateral" end="7200.00" period="exp(0.03)"/>
+    <flow id="Cl170_or_chia" type="bog_driver" begin="0.00" departLane="random" from="ent_cl170_or" to="sal_auto_norte" end="7200.00" period="exp(0.06)"/>
+    <flow id="Cl183_occ_auto_sur_central" type="bog_driver" begin="0.00" departLane="random" from="ent_cl183_occ" to="sal_auto_sur_central" end="7200.00" period="exp(0.06)"/>
+    <flow id="Cl183_occ_chia" type="bog_driver" begin="0.00" departLane="random" from="ent_cl183_occ" to="sal_auto_norte" end="7200.00" period="exp(0.06)"/>
+    <flow id="Cl183_or_auto_sur_central" type="bog_driver" begin="0.00" departLane="random" from="ent_cl183_or" to="sal_auto_sur_central" end="7200.00" period="exp(0.06)"/>
+    <flow id="Cl183_or_chia" type="bog_driver" begin="0.00" departLane="random" from="ent_cl183_or" to="sal_auto_norte" end="7200.00" period="exp(0.06)"/>
+    <flow id="Cl192_occ_auto_sur_central" type="bog_driver" begin="0.00" from="ent_cl192_occ" to="sal_auto_sur_central" via="809284675" end="7200.00" period="exp(0.04)"/>
+    <flow id="Cl192_occ_auto_sur_lateral" type="bog_driver" begin="0.00" from="ent_cl192_occ" to="sal_auto_sur_lateral" via="809284674#0" end="7200.00" period="exp(0.04)"/>
+    <flow id="auto_norte_Cl183_occ" type="bog_driver" begin="0.00" departLane="random" from="ent_auto_norte_central" to="sal_cl183_occ" via="809284676.65" end="7200.00" period="exp(0.03)"/>
+    <flow id="auto_norte_central_Cl170_occ" type="bog_driver" begin="0.00" departLane="random" from="ent_auto_norte_central" to="sal_cl170_occ" end="7200.00" period="exp(0.03)"/>
+    <flow id="auto_norte_central_Cl170_oriente" type="bog_driver" begin="0.00" departLane="random" from="ent_auto_norte_central" to="sal_cl170_or" end="7200.00" period="exp(0.03)"/>
+    <flow id="auto_norte_central_Cl183_or" type="bog_driver" begin="0.00" departLane="random" from="ent_auto_norte_central" to="sal_cl183_or" via="809284676.65" end="7200.00" period="exp(0.03)"/>
+    <flow id="auto_norte_central_array" type="bog_driver" begin="0.00" departLane="random" from="ent_auto_norte_central" to="sal_array_occ" via="809284676.65" end="7200.00" period="exp(0.01)"/>
+    <flow id="auto_norte_central_chia" type="bog_driver" begin="0.00" departLane="random" from="ent_auto_norte_central" to="sal_auto_norte" via="809284676.65" end="7200.00" period="exp(0.33)"/>
+    <flow id="auto_norte_central_guaymaral" type="bog_driver" begin="0.00" departLane="random" from="ent_auto_norte_central" to="sal_cl235_occ" via="809284676.65" end="7200.00" period="exp(0.03)"/>
+    <flow id="auto_norte_lateral_array" type="bog_driver" begin="0.00" departLane="random" from="ent_auto_norte_lateral" to="sal_array_occ" end="7200.00" period="exp(0.01)"/>
+    <flow id="auto_norte_lateral_chia" type="bog_driver" begin="0.00" departLane="random" from="ent_auto_norte_lateral" to="sal_auto_norte" end="7200.00" period="exp(0.22)"/>
+    <flow id="auto_norte_lateral_guay" type="bog_driver" begin="0.00" departLane="random" from="ent_auto_norte_lateral" to="sal_cl235_occ" end="7200.00" period="exp(0.03)"/>
+    <flow id="camion_bog_chia" type="bog_camion" begin="0.00" departLane="random" from="ent_auto_norte_central" to="sal_auto_norte" via="809284676.65" end="7200.00" period="exp(0.04)"/>
+    <flow id="camion_bog_chia_lateral" type="bog_camion" begin="0.00" departLane="random" from="ent_auto_norte_lateral" to="sal_auto_norte" end="7200.00" period="exp(0.04)"/>
+    <flow id="camion_chia_bog_central" type="bog_camion" begin="0.00" departLane="random" from="ent_auto_sur" to="sal_auto_sur_central" end="7200.00" period="exp(0.09)"/>
+    <flow id="camion_chia_bog_lateral" type="bog_camion" begin="0.00" departLane="random" from="ent_auto_sur" to="sal_auto_sur_lateral" end="7200.00" period="exp(0.09)"/>
+    <flow id="chia_auto_sur_central" type="bog_driver" begin="0.00" departLane="random" from="ent_auto_sur" to="sal_auto_sur_central" via="809284675" end="7200.00" period="exp(0.44)"/>
+    <flow id="chia_auto_sur_lateral" type="bog_driver" begin="0.00" departLane="random" from="ent_auto_sur" to="sal_auto_sur_lateral" via="809284674#0" end="7200.00" period="exp(0.28)"/>
+    <flow id="chia_cl170_or" type="bog_driver" begin="0.00" departLane="random" from="ent_auto_sur" to="sal_cl170_or" end="7200.00" period="exp(0.03)"/>
+    <flow id="cl170_occ_chia" type="bog_driver" begin="0.00" from="ent_cl170_occ" to="sal_auto_norte" via="911102409#2" end="7200.00" period="exp(0.06)"/>
+    <flow id="float_chia_cl170occ_NS" type="bog_flota" begin="0.00" departLane="random" from="ent_auto_sur" to="sal_cl170_occ" end="3600.00" period="exp(0.01)"/>
+    <flow id="flota_Chia_Bog" type="bog_interm" begin="0.00" departLane="random" from="ent_auto_sur" to="sal_cl170_occ" via="90639510#16.305 1014179908 911102405#4" end="7200.00" period="exp(0.01)">
+        <stop busStop="interm_6" duration="30.00"/>
+        <stop busStop="interm_5" duration="30.00"/>
+        <stop busStop="interm_3" duration="30.00"/>
+    </flow>
+    <flow id="flota_bog_chia" type="bog_interm" begin="0.00" departLane="random" from="ent_cl170_or" to="sal_auto_norte" via="25123214 487491309#3.58 118123468 1056691026#0" end="7200.00" period="exp(0.01)">
+        <stop busStop="interm4" duration="30.00"/>
+        <stop busStop="interm_0" duration="30.00"/>
+        <stop busStop="interm_1" duration="30.00"/>
+    </flow>
+    <flow id="flota_bogota_terminal_chia" type="bog_flota" begin="0.00" departLane="random" from="ent_cl170_or" to="sal_auto_norte" via="25123214 487491309#3.58 911102409#1 467183603#0 467183603#1 ent_cl192_occ.900 1056691026#0" end="7200.00" period="exp(0.01)">
+        <stop busStop="terminal_norte" duration="30.00"/>
+    </flow>
+    <flow id="flota_chia_portal" type="bog_interm" begin="0.00" departLane="random" from="ent_auto_sur" to="90071638" via="90639510#16.305 1014179908 948520241#1 978327365#0.89" end="7200.00" period="exp(0.02)">
+        <stop busStop="interm_6" duration="30.00"/>
+        <stop busStop="interm_5" duration="30.00"/>
+    </flow>
+    <flow id="flota_portal_chia" type="bog_interm" begin="0.00" departLane="random" from="1033331040" to="sal_auto_norte" via="1050703614#0 1013187999#4 1056691029#0 118123468 984307409 1056691026#0" end="7200.00" probability="0.02">
+        <stop busStop="interm_0" duration="30.00"/>
+        <stop busStop="interm_1" duration="30.00"/>
+    </flow>
+    <flow id="guay_auto_sur_central" type="bog_driver" begin="0.00" from="ent_cl235_or" to="sal_auto_sur_central" via="809284675" end="7200.00" period="exp(0.04)"/>
+    <flow id="guay_auto_sur_lateral" type="bog_driver" begin="0.00" from="ent_cl235_or" to="sal_auto_sur_lateral" via="809284674#0" end="7200.00" period="exp(0.04)"/>
+    <flow id="ruta_Calle170_Occ_Cl222" type="bog_ruta" begin="0.00" departLane="random" from="ent_cl170_occ" to="sal_cl222_occ" end="7200.00" period="exp(0.01)"/>
+    <flow id="ruta_Cl170_or_Cl222" type="bog_ruta" begin="0.00" departLane="random" from="ent_cl170_or" to="sal_cl222_occ" end="7200.00" period="exp(0.01)"/>
+    <flow id="ruta_Cl170_or_array" type="bog_ruta" begin="0.00" departLane="random" from="ent_cl170_or" to="sal_array_occ" end="7200.00" period="exp(0.01)"/>
+    <flow id="ruta_auto_norte_central_Cl222" type="bog_ruta" begin="0.00" departLane="random" from="ent_auto_norte_central" to="sal_cl222_occ" via="809284676.65" end="7200.00" period="exp(0.06)"/>
+    <flow id="ruta_auto_norte_central_array" type="bog_ruta" begin="0.00" departLane="random" from="ent_auto_norte_central" to="sal_array_occ" via="809284676.65" end="7200.00" period="exp(0.10)"/>
+    <flow id="ruta_auto_norte_lateral_array" type="bog_ruta" begin="0.00" departLane="random" from="ent_auto_norte_lateral" to="sal_array_occ" end="7200.00" period="exp(0.04)"/>
+    <flow id="ruta_cl170_occ_array" type="bog_ruta" begin="0.00" departLane="random" from="ent_cl170_occ" to="sal_array_occ" end="7200.00" period="exp(0.01)"/>
+    <flow id="sitp_CL187occ_Cl191Occ" type="bog_Sitp" begin="0.00" departLane="random" from="ent_cl187_occ" to="sal_cl191_occ" via="1056691029#0 118123468 1056691026#0 90639510#13.150 90639510#13.211 90639510#16.305" end="7200.00" vehsPerHour="24.00">
+        <stop busStop="146B01" duration="30.00"/>
+        <stop busStop="274A01" duration="30.00"/>
+        <stop busStop="102A02" duration="30.00"/>
+        <stop busStop="338A02" duration="30.00"/>
+    </flow>
+    <flow id="sitp_Cl170occ_Cl191occ" type="bog_Sitp" begin="0.00" departLane="random" from="ent_cl170_occ" to="sal_cl191_occ" via="487491309#3.58 487491309#4.82 1056691029#0 118123468 1056691026#0 24032108 90639510#13.150 90639510#13.211 90639510#16.305" end="7200.00" vehsPerHour="4.40">
+        <stop busStop="144B03" duration="30.00"/>
+        <stop busStop="145A01" duration="30.00"/>
+        <stop busStop="146A01" duration="30.00"/>
+        <stop busStop="274B01" duration="30.00"/>
+        <stop busStop="102A02" duration="30.00"/>
+        <stop busStop="338A02" duration="30.00"/>
+    </flow>
+    <flow id="sitp_Cl170occ_Diag182or" type="bog_Sitp" begin="0.00" departLane="random" from="ent_cl170_occ" to="sal_cl183_or" via="487491309#3.58 487491309#4.82 -88847802#9" end="7200.00" vehsPerHour="8.00">
+        <stop busStop="144B03" duration="30.00"/>
+        <stop busStop="145A01" duration="30.00"/>
+    </flow>
+    <flow id="sitp_Cl170or_Cl175Or" type="bog_Sitp" begin="0.00" departLane="random" from="ent_cl170_or" to="-E0" via="487491309#3.58" end="7200.00" vehsPerHour="4.00">
+        <stop busStop="144B02" duration="30.00"/>
+    </flow>
+    <flow id="sitp_Cl170or_Cl187or" type="bog_Sitp" begin="0.00" departLane="random" from="ent_cl170_or" to="sal_cl187_or" via="487491309#3.58 487491309#4.82" end="7200.00" vehsPerHour="2.40">
+        <stop busStop="144B03" duration="30.00"/>
+        <stop busStop="145A01" duration="30.00"/>
+    </flow>
+    <flow id="sitp_Cl170or_Cl191occ" type="bog_Sitp" begin="0.00" departLane="random" from="ent_cl170_or" to="sal_cl191_occ" via="487491309#3.58 487491309#4.82 1056691029#0 118123468 1056691026#0 24032108 90639510#13.150 90639510#13.211 90639510#16.305" end="7200.00" vehsPerHour="2.00">
+        <stop busStop="144B02" duration="30.00"/>
+        <stop busStop="145A01" duration="30.00"/>
+        <stop busStop="146A01" duration="30.00"/>
+        <stop busStop="274A01" duration="30.00"/>
+        <stop busStop="102A02" duration="30.00"/>
+        <stop busStop="338A02" duration="30.00"/>
+    </flow>
+    <flow id="sitp_Cl170or_Cl222occ" type="bog_Sitp" begin="0.00" departLane="random" from="ent_cl170_or" to="sal_cl222_occ" via="487491309#3.58 487491309#4.82 1056691029#0 118123468 1056691026#0 601794960#4.49 601794960#9.43.273 601794960#17.30 907302114#0 910256693#1 910256693#7.16 910256693#7.90" end="7200.00" vehsPerHour="4.40">
+        <stop busStop="144B02" duration="30.00"/>
+        <stop busStop="145A01" duration="30.00"/>
+        <stop busStop="146A01" duration="30.00"/>
+        <stop busStop="274B01" duration="30.00"/>
+        <stop busStop="275A01" duration="30.00"/>
+        <stop busStop="276A01" duration="30.00"/>
+        <stop busStop="569A01" duration="30.00"/>
+        <stop busStop="178A02" duration="30.00"/>
+        <stop busStop="104A02" duration="30.00"/>
+        <stop busStop="346A02" duration="30.00"/>
+        <stop busStop="166B02" duration="30.00"/>
+    </flow>
+    <flow id="sitp_Cl187occ_Cl170occ" type="bog_Sitp" begin="0.00" departLane="random" from="ent_cl187_occ" to="sal_cl170_occ" via="1056691029#0 118123468 1056691026#0 90639510#13.150 90639510#13.211 90639510#16.305 1014179908 911102406 911102405#3" end="7200.00" vehsPerHour="2.40">
+        <stop busStop="146B01" duration="30.00"/>
+        <stop busStop="274A01" duration="30.00"/>
+        <stop busStop="102A02" duration="30.00"/>
+        <stop busStop="338A02" duration="30.00"/>
+        <stop busStop="089A02" duration="30.00"/>
+        <stop busStop="088A02" duration="30.00"/>
+        <stop busStop="087A02" duration="30.00"/>
+    </flow>
+    <flow id="sitp_Cl187occ_Cl170or" type="bog_Sitp" begin="0.00" departLane="random" from="ent_cl187_occ" to="sal_cl170_or" via="1056691029#0 118123468 1056691026#0 90639510#13.150 90639510#13.211 90639510#16.305 1014179908 911102406 911102405#3 25123220#0" end="7200.00" vehsPerHour="4.00">
+        <stop busStop="146A01" duration="30.00"/>
+        <stop busStop="274A01" duration="30.00"/>
+        <stop busStop="102A02" duration="30.00"/>
+        <stop busStop="338B02" duration="30.00"/>
+        <stop busStop="089B01" duration="30.00"/>
+        <stop busStop="088A02" duration="30.00"/>
+        <stop busStop="087A02" duration="30.00"/>
+    </flow>
+    <flow id="sitp_Cl191or_Cl170occ" type="bog_Sitp" begin="0.00" departLane="random" from="ent_cl191_or" to="sal_cl170_occ" via="1014179908 911102406 911102405#3" end="7200.00" vehsPerHour="2.00">
+        <stop busStop="089B01" duration="30.00"/>
+        <stop busStop="088A02" duration="30.00"/>
+        <stop busStop="087A02" duration="30.00"/>
+    </flow>
+    <flow id="sitp_Cl191or_Cl170or" type="bog_Sitp" begin="0.00" departLane="random" from="ent_cl191_or" to="sal_cl170_or" via="1014179908 911102406 911102405#3 25123220#0" end="7200.00" vehsPerHour="4.00">
+        <stop busStop="089A02" duration="30.00"/>
+        <stop busStop="088A02" duration="30.00"/>
+        <stop busStop="087A02" duration="30.00"/>
+    </flow>
+    <flow id="sitp_Cl191or_Cl183or" type="bog_Sitp" begin="0.00" departLane="random" from="ent_cl191_or" to="sal_cl183_or" via="1014179908 41012755#0" end="7200.00" vehsPerHour="24.00">
+        <stop busStop="089A02" duration="30.00"/>
+    </flow>
+    <flow id="sitp_Cl192occ_Cl191_occ" type="bog_Sitp" begin="0.00" departLane="random" from="ent_cl192_occ" to="sal_cl191_occ" via="1056691026#0 24032108 90639510#13.150 90639510#13.211 90639510#16.305" end="7200.00" vehsPerHour="4.00">
+        <stop busStop="274A01" duration="30.00"/>
+        <stop busStop="102A02" duration="30.00"/>
+        <stop busStop="338B02" duration="30.00"/>
+    </flow>
+    <flow id="sitp_Cl222or_Cl170occ" type="bog_Sitp" begin="0.00" departLane="random" from="ent_cl222_or" to="sal_cl170_occ" via="910256693#13 910256693#14 90639510#1 90639510#8 90639510#13.150 90639510#13.211 90639510#16.305 1014179908 911102406 911102405#3 25123221#2" end="7200.00" vehsPerHour="4.00">
+        <stop busStop="166A02" duration="30.00"/>
+        <stop busStop="099A02" duration="30.00"/>
+        <stop busStop="103A02" duration="30.00"/>
+        <stop busStop="101A02" duration="30.00"/>
+        <stop busStop="102B02" duration="30.00"/>
+        <stop busStop="338B02" duration="30.00"/>
+        <stop busStop="089B01" duration="30.00"/>
+        <stop busStop="088A02" duration="30.00"/>
+        <stop busStop="087A02" duration="30.00"/>
+    </flow>
+    <flow id="sitp_Cl222or_Cl170or" type="bog_Sitp" begin="0.00" departLane="random" from="ent_cl222_or" to="sal_cl170_or" via="910256693#13 910256693#14 90639510#1 90639510#8 90639510#13.150 90639510#13.211 90639510#16.305 1014179908 911102406 911102405#3 25123220#0" end="7200.00" vehsPerHour="8.00">
+        <stop busStop="166A02" duration="30.00"/>
+        <stop busStop="099A02" duration="30.00"/>
+        <stop busStop="103A02" duration="30.00"/>
+        <stop busStop="101A02" duration="30.00"/>
+        <stop busStop="102B02" duration="30.00"/>
+        <stop busStop="338B02" duration="30.00"/>
+        <stop busStop="089B01" duration="30.00"/>
+        <stop busStop="088A02" duration="30.00"/>
+        <stop busStop="087A02" duration="30.00"/>
+    </flow>
+    <flow id="sitp_al_2-1" type="bog_alimentador" begin="0.00" departLane="random" from="1033331040" to="1033331047#0" via="1013187999#2.90 911102410 467167463 ent_cl183_or.849 978327365#0.89" end="7200.00" vehsPerHour="4.00"/>
+    <flow id="sitp_al_2-2" type="bog_alimentador" begin="0.00" departLane="random" from="1033331040" to="90071638" via="1050703614#0 1013187999#4 1012619868 1056691029#0 118123468 1056691026#0 601794960#4.49 601794960#9.43.273 24599951 90639510#1 90639510#8 90639510#13.150 90639510#13.211 90639510#16.305 1014179908 948520241#1 978327365#0.89" end="7200.00" vehsPerHour="4.00">
+        <stop busStop="274B01" duration="30.00"/>
+        <stop busStop="275A01" duration="30.00"/>
+        <stop busStop="276A01" duration="30.00"/>
+        <stop busStop="103A02" duration="30.00"/>
+        <stop busStop="101A02" duration="30.00"/>
+        <stop busStop="102A02" duration="30.00"/>
+    </flow>
+    <flow id="sitp_al_2-3_2-11_2-10" type="bog_alimentador" begin="0.00" departLane="random" from="1033331040" to="90071638" via="1050703614#0 E8 sal_cl183_or ent_cl183_occ 42141634#0 978327365#0.89" end="7200.00" vehsPerHour="12.00"/>
+    <flow id="sitp_al_2-4_2-5_2-8" type="bog_alimentador" begin="0.00" departLane="random" from="90071638" to="1050703613" via="1033331040 978327365#0 911102406 25123220#0 sal_cl170_or 88845354#2 487491309#4.82 1013187999#2 978327365#0" end="7200.00" vehsPerHour="12.00"/>
+    <flow id="sitp_al_2-7" type="bog_alimentador" begin="0.00" departLane="random" from="90071638" to="1050703613" via="978327365#0 911102405#3 25123221#3 sal_cl170_occ ent_cl170_or 30039245-AddedOffRampEdge 25123214 487491309#1 1013187999#1 1013187999#2 978327365#0" end="7200.00" vehsPerHour="4.00"/>
+    <flow id="sitp_cl170occ_Cl222occ" type="bog_Sitp" begin="0.00" departLane="random" from="ent_cl170_occ" to="sal_cl222_occ" via="487491309#3.58 487491309#4.82 1056691029#0 118123468 1056691026#0 601794960#4.49 601794960#9.43.273 601794960#17.30 907302114#0 910256693#1 910256693#7.16 910256693#7.90" end="7200.00" vehsPerHour="8.80">
+        <stop busStop="144B02" duration="30.00"/>
+        <stop busStop="145A01" duration="30.00"/>
+        <stop busStop="146A01" duration="30.00"/>
+        <stop busStop="274B01" duration="30.00"/>
+        <stop busStop="275A01" duration="30.00"/>
+        <stop busStop="276A01" duration="30.00"/>
+        <stop busStop="569A01" duration="30.00"/>
+        <stop busStop="178A02" duration="30.00"/>
+        <stop busStop="104A02" duration="30.00"/>
+        <stop busStop="346A02" duration="30.00"/>
+        <stop busStop="166B02" duration="30.00"/>
+    </flow>
+</routes>
