@@ -10,4 +10,7 @@ This scenario incorporates a single change, the school bus dedicated lane starts
 ## Autonorte E2
 This scenario builds from scenario E1. In addition, the leftmost lane of Autopista Norte from 170th St to 182nd St has been dismantled. It is used for exclusive bus stops, and lanes exclusive to enter or exit the Autopista norte.
 
+## Autonorte E3
+This scenario builds from scenario E2. In addition, it removes the return lane on 194th St. All traffic must return either at 205th St or 235th St.
+
 
