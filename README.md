@@ -7,4 +7,7 @@ This is the BAU scenario, it features a dedicated school bus lane that extends a
 ## Autonorte E1
 This scenario incorporates a single change, the school bus dedicated lane starts earlier, right after the brief lane number reduction in the central stream of Autopista Norte. On the other hand, the dedicated lane ends at the final lane reduction at 192th St.
 
+## Autonorte E2
+This scenario builds from scenario E1. In addition, the leftmost lane of Autopista Norte from 170th St to 182nd St has been dismantled. It is used for exclusive bus stops, and lanes exclusive to enter or exit the Autopista norte.
+
 
