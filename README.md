@@ -13,4 +13,8 @@ This scenario builds from scenario E1. In addition, the leftmost lane of Autopis
 ## Autonorte E3
 This scenario builds from scenario E2. In addition, it removes the return lane on 194th St. All traffic must return either at 205th St or 235th St.
 
+## Autonorte E4
+This scenario builds from scenario E2. In addition, the return lane on 194th St is available only to public service buses. Private traffic must go to 205th street to return south.
 
+## Autonorte E5
+This scenario builds from scenario E4. It incorporates the shift of the bus stops at 193th, to the south of the pedestrian bridge.
