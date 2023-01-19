@@ -18,3 +18,6 @@ This scenario builds from scenario E2. In addition, the return lane on 194th St 
 
 ## Autonorte E5
 This scenario builds from scenario E4. It incorporates the shift of the bus stops at 193th, to the south of the pedestrian bridge.
+
+## Autonorte E6
+This scenario is identical to scenario E5. However, in this case the return lane on 194th street is available for all traffic. On the other hand, to improve the mobility to the south. The bus stops at Cl 222 and Cl 194th have been relocated.
